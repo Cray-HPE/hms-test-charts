@@ -33,4 +33,5 @@ spec:
           image: "{{ .Values.cray-smd-hmth-test.repository }}:{{ .Values.cray-smd-hmth-test.version }}"
           imagePullPolicy: "{{ .Values.cray-smd-hmth-test.pullPolicy }}"
           command: ["/bin/sh", "-c"]
-          args: [ "entrypoint.sh tavern -c /src/libs/tavern_global_config.yaml -p /src/app/api"]
+          args: [ "entrypoint.sh tavern -c /src/libs/tavern_global_config.yaml -p /src/app/api/1-non-disruptive"] 
+          #^^^ TODO change my path to drop the /1-non-di....
