@@ -1,0 +1,13 @@
+apiVersion: v2
+name: "cray-hms-test-harness"
+version: 1.0.0
+description: "Kubernetes resources for cray-hms-test-harness"
+home: https://github.com/Cray-HPE/hms-test-charts
+sources:
+  - https://github.com/Cray-HPE/hms-test
+  # should probably list all the repos we pull tests from
+maintainers:
+  - name: nieuwsma
+annotations:
+  artifacthub.io/license: MIT
+appVersion: 3.0.0
