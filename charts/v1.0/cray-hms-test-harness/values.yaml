@@ -3,3 +3,4 @@ cray-smd-hmth-test:
   repository: artifactory.algol60.net/csm-docker/unstable/cray-smd-hmth-test
   pullPolicy: IfNotPresent
   version: 1.58.1-20220914204106.1583484
+  name: test-cray-smd-hmth-test
