@@ -20,3 +20,7 @@
 # VSCode
 .vscode
 .idea
+
+# Vendor directories that should not be checked in
+vendor/hms-build-changed-charts-action/
+        
